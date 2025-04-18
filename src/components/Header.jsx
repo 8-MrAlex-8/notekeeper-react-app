@@ -10,7 +10,7 @@ const headerStyle = {
 // header: 20vh
 function Header() {
   return (
-    <header className="h-2/5" style={headerStyle}>
+    <header className="h-2/5 mb-8" style={headerStyle}>
       <h1 className="text-2xl ml-4"> K-NOTE App </h1>
     </header>
   );
