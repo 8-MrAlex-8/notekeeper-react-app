@@ -4,16 +4,11 @@
   }
 
   body {
-    width: 100vw;
     padding: 0;
     margin: 0;
   }
 
-  header, footer{
-    width: 100vw;
-  }
-  
-  body, header, footer {
+  header, footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
