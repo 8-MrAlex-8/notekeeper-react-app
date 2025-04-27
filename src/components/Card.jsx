@@ -15,14 +15,19 @@ function Card(props) {
       {/* White part of the card */}
       <div
         className="px-6 pt-3 pb-0 overflow-hidden text-justify group cursor-pointer
-      flex flex-col justify-center items-center"
+      flex flex-col justify-center items-start"
       >
         {/*Notes Content*/}
-        <p className="line-clamp-6 transition group-hover:opacity-5">
+        <h1 className="transition group-hover:opacity-5 py-3 text-xl font-bold text-left">
+          {props.title}
+        </h1>
+
+        {/*Notes Content*/}
+        <p className="text-sm line-clamp-3 leading-7 transition group-hover:opacity-3">
           {props.content}
         </p>
         {/*See Note prompt*/}
-        <p className="hidden group-hover:inline text-md absolute text-gray-700 tracking-wider">
+        <p className="hidden group-hover:inline text-md absolute text-gray-700 tracking-wider self-center">
           Read Note
         </p>
       </div>

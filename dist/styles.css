@@ -10,9 +10,8 @@
 
   header, footer {
     display: flex;
-  }
-
-  footer {
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 

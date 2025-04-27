@@ -12,6 +12,7 @@ function CardGroup() {
       style={heightSet}
     >
       <Card
+        title="Loren Ipsum"
         content="Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
         since the 1500s, when an unknown printer took a galley of type and
@@ -19,6 +20,7 @@ function CardGroup() {
         date="August 5, 2024"
       />
       <Card
+        title="Loren Ipsum"
         content="Wandering foxes often leap through meadows in search of 
       hidden berries and playful shadows. Curious and nimble, they dance beneath 
       the silver moon, weaving quietly between the trees, leaving only soft prints
@@ -27,6 +29,7 @@ function CardGroup() {
       />
 
       <Card
+        title="Loren Ipsum"
         content="Ancient ruins lie buried beneath sands that shift with every 
       gust of desert wind. Stories of lost cities echo through time, whispered by 
       travelers who roam with maps drawn in faded ink and hope etched deep within 
@@ -35,6 +38,7 @@ function CardGroup() {
       />
 
       <Card
+        title="Loren Ipsum"
         content="Robots assemble silently on endless lines, guided by code 
       that hums like a digital heartbeat. Sparks flash in sync with algorithms, 
       crafting futures one precise motion at a time, never pausing to question 
@@ -43,6 +47,7 @@ function CardGroup() {
       />
 
       <Card
+        title="Loren Ipsum"
         content="The ocean sings a song of endless blue, where ships drift like 
       dreams across the waves. Beneath the surface, coral kingdoms bloom, teeming 
       with life that dances to the rhythm of the tides and the moon's gentle pull."
@@ -50,6 +55,7 @@ function CardGroup() {
       />
 
       <Card
+        title="Loren Ipsum"
         content="Mountaintops glow in the first light of dawn, their snowy peaks 
       piercing clouds like ancient guardians. Paths twist through pine forests below, 
       where time slows and the world hushes, waiting for footsteps to echo through 
